@@ -40,6 +40,7 @@ public class Wrk implements IWrkCtrl {
         if ( x == 0 ) {
             throw new ArithmeticException( "division par 0!" );
         }
+        
         return area / x;
     }
 }
